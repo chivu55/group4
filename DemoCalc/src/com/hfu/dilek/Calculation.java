@@ -11,6 +11,7 @@ public class Calculation {
         multipStep  ();
 
         subtraktion ();
+
     }
 
     private static void subtraktion() {
