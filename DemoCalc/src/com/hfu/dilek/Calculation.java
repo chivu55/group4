@@ -9,6 +9,22 @@ public class Calculation {
         additionStep();
 
         multipStep  ();
+
+        subtraktion ();
+    }
+
+    private static void subtraktion() {
+
+        System.out.println("");
+        System.out.println("Start of Subtraktion");
+
+        for (int i = 0; i < 5; i++) {
+            int random = createRandom();
+            System.out.println("Random =  " + random + ", counter number " + i + ",  Subtraktion: " + (random - i));
+        }
+
+        System.out.println("");
+        System.out.println("End of Subtraktion");
     }
 
     private static void additionStep() {
